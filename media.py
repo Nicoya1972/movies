@@ -9,4 +9,5 @@ class Reel():
         	self.trailer_youtube_url = trailer_youtube
 
         def show_trailer(self):
+        	""" This function activates the modal window that shows the trailer for the movies"""
         	webbrowser.open(self.trailer_youtube_url)
