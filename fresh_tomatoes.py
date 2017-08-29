@@ -53,8 +53,7 @@ main_page_head = '''
             font-size: 11px !important;
             letter-spacing: 4px;
             opacity: 0.9;
-            width: 950px;
-            
+            width: 950px;   
         }
         .navbar a{
             color: white; 
@@ -87,7 +86,6 @@ main_page_head = '''
                 max-height: 400px;
                 object-fit: contain;
         }
-
         .carousel-caption h3 {
              color: #fff !important;
         }
@@ -125,8 +123,6 @@ main_page_head = '''
     </script>
 </head>
 '''
-
-
 # The main page layout and title bar
 main_page_content = '''
   <body>
@@ -171,16 +167,13 @@ main_page_content = '''
     <div class="item active">
       <img src="img/friday.jpg" alt="ice cube">
     </div>
-
     <div class="item">
       <img src="img/alien.jpg" alt="predator">
     </div>
-
     <div class="item">
       <img src="img/gladiator.jpg" alt="warrior">
     </div>
   </div>
-
   <!-- Left and right controls -->
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
@@ -201,8 +194,6 @@ main_page_content = '''
   </body>
 </html>
 '''
-
-
 # A single movie entry html template
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
@@ -210,7 +201,6 @@ movie_tile_content = '''
     <h2>{movie_title}</h2>
 </div>
 '''
-
 
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
